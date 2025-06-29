@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio Fahrurozi</title>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .project-img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Fahrurozi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Profile Section -->
+  <section class="bg-light text-center py-5">
+    <div class="container">
+      <img src="https://i.imgur.com/3G3J3zT.jpg" alt="Foto Profil Fahrurozi" class="profile-img">
+      <h3>Fahrurozi</h3>
+      <p class="text-muted">Mahasiswa & Pekerja Penuh Waktu</p>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h4 class="text-center mb-3">About Me</h4>
+      <p class="text-center mx-auto" style="max-width: 700px;">
+        Nama saya Fahrurozi, saat ini saya sedang menjalani rutinitas sebagai pekerja sekaligus mahasiswa. Setiap hari saya membagi waktu antara tanggung jawab pekerjaan dan kewajiban kuliah. Meskipun tidak mudah, saya berusaha tetap disiplin dalam menjalani keduanya.
+        <br><br>
+        Menjalani dua peran sekaligus tentu membawa tantangan tersendiri, terutama dalam hal mengatur waktu. Tidak jarang saya merasa kewalahan, apalagi ketika pekerjaan sedang padat dan tugas kuliah menumpuk. Namun, saya percaya bahwa dengan komitmen dan tekad yang kuat, semua bisa dijalani.
+        <br><br>
+        Saya percaya bahwa pengalaman ini akan menjadi bekal berharga di masa depan. Menjadi pribadi yang disiplin, tangguh, dan mampu bekerja di bawah tekanan adalah hal-hal yang saya pelajari dari keseharian saya saat ini.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h4 class="text-center mb-4">Projects</h4>
+      <div class="row text-center">
+        <div class="col-md-4 mb-3">
+          <img src="https://images.unsplash.com/photo-1584697964403-91b5c68f97fa?auto=format&fit=crop&w=800&q=60" class="project-img" alt="Meja Belajar Estetik">
+          <p class="mt-2">Meja Belajar Estetik</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=800&q=60" class="project-img" alt="Belajar di Perpustakaan">
+          <p class="mt-2">Belajar di Perpustakaan</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="https://images.unsplash.com/photo-1600195077074-361d428fef61?auto=format&fit=crop&w=800&q=60" class="project-img" alt="Produktivitas Mahasiswa">
+          <p class="mt-2">Produktivitas Mahasiswa</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h4 class="text-center mb-4">Contact Me</h4>
+      <form class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+          <label for="nama" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" id="nama" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="pesan" class="form-label">Pesan</label>
+          <textarea class="form-control" id="pesan" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
